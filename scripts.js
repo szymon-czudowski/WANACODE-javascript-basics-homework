@@ -4,3 +4,13 @@ function getGreeting(name, surname) {
 const greeting = getGreeting('John', 'Smith');
 
 console.log(greeting);
+
+function isThisMyName(name) {
+    if (name === 'Szymon') {
+        return true;
+    } else {
+        return false;
+    }
+}
+console.log(isThisMyName('Maciek'));
+console.log(isThisMyName('Szymon'));
