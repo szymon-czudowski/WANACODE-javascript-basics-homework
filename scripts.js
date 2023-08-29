@@ -1,5 +1,5 @@
 function getGreeting(name, surname) {
-    console.log(`Hi ${name} ${surname}! Good to see you`)
+    return (`Hi ${name} ${surname}! Good to see you`)
 }
 const greeting = getGreeting('John', 'Smith');
 
