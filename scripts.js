@@ -28,3 +28,18 @@ function getCirclesAreaSum(radius1, radius2) {
     return (getCircleArea(radius1) + getCircleArea(radius2));
 }
 console.log(getCirclesAreaSum(5, 8));
+
+// Sixth homework task
+function rockPaperScissors(player1, player2) {
+    if (player1 === player2 ) {
+        return 0;
+    } else if (
+        player1 === 'scissors' && player2 === 'paper' ||
+        player1 === 'paper' && player2 === 'rock' ||
+        player1 === 'rock' && player2 === 'scissors'
+    ) {
+        return 1;
+    } else {
+        return 2;
+    }
+}
