@@ -6,7 +6,7 @@ const greeting = getGreeting('John', 'Smith');
 console.log(greeting);
 // Second homework task
 function isThisMyName(name) {
-    return name.includes('Szymon');
+    return name === 'Szymon';
 }
 console.log(isThisMyName('Maciej'));
 console.log(isThisMyName('Szymon'));
